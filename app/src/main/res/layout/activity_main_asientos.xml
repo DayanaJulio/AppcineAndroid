@@ -1,0 +1,675 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CDCBCB"
+    tools:context=".MainActivityAsientos">
+
+    <TextView
+        android:id="@+id/textViewasiento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_weight="1"
+        android:text="@string/Asiento"
+        android:textAlignment="center"
+        android:textColor="#171717"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TableLayout
+        android:layout_width="399dp"
+        android:layout_height="379dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewasiento">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbarSize="5dp">
+
+            <TextView
+                android:id="@+id/s00"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/style_border"
+                android:text="8A"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/s01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/style_border"
+                android:text="8B"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/s02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/style_border"
+                android:text="8C"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/s03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/style_border"
+                android:text="8D"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/s04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/style_border"
+                android:text="8E"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/s05"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/style_border"
+                android:text="8F"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/s06"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/style_border"
+                android:text="8G"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/s07"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/style_border"
+                android:text="8H"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/s08"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/style_border"
+                android:text="8I"
+                android:textSize="20dp" />
+        </TableRow>
+
+
+        <!--segunda fila >-->
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbarSize="5dp">
+
+            <TextView
+                android:id="@+id/s10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/style_border"
+                android:text="7A"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/s11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/style_border"
+                android:text="7B"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/s12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/style_border"
+                android:text="7C"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/s13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/style_border"
+                android:text="7D"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/s14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/style_border"
+                android:text="7E"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/s15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/style_border"
+                android:text="7F"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/s16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/style_border"
+                android:text="7G"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/s17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/style_border"
+                android:text="7H"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/s18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/style_border"
+                android:text="7I"
+                android:textSize="20dp" />
+        </TableRow>
+
+        <!--tercera fila >-->
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbarSize="5dp">
+
+            <TextView
+                android:id="@+id/s20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/style_border"
+                android:text="6A"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/s21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/style_border"
+                android:text="6B"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/s22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/style_border"
+                android:text="6C"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/s23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/style_border"
+                android:text="6D"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/s24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/style_border"
+                android:text="6E"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/s25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/style_border"
+                android:text="6F"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/s26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/style_border"
+                android:text="6G"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/s27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/style_border"
+                android:text="6H"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/s28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/style_border"
+                android:text="6I"
+                android:textSize="20dp" />
+        </TableRow>
+
+        <!--cuarta fila >-->
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbarSize="5dp">
+
+            <TextView
+                android:id="@+id/s30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/style_border"
+                android:text="5A"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/s31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/style_border"
+                android:text="5B"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/s32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/style_border"
+                android:text="5C"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/s33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/style_border"
+                android:text="5D"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/s34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/style_border"
+                android:text="5E"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/s35"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/style_border"
+                android:text="5F"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/s36"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/style_border"
+                android:text="5G"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/s37"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/style_border"
+                android:text="5H"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/s38"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/style_border"
+                android:text="5I"
+                android:textSize="20dp" />
+        </TableRow>
+
+        <!--quinta fila >-->
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbarSize="5dp">
+
+            <TextView
+                android:id="@+id/s40"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/style_border"
+                android:text="4A"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/s41"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/style_border"
+                android:text="4B"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/s42"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/style_border"
+                android:text="4C"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/s43"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/style_border"
+                android:text="4D"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/s44"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/style_border"
+                android:text="4E"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/s45"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/style_border"
+                android:text="4F"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/s46"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/style_border"
+                android:text="4G"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/s47"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/style_border"
+                android:text="4H"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/s48"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/style_border"
+                android:text="4I"
+                android:textSize="20dp" />
+        </TableRow>
+
+        <!--sexta fila >-->
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbarSize="5dp">
+
+            <TextView
+                android:id="@+id/s50"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/style_border"
+                android:text="3A"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/s51"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/style_border"
+                android:text="3B"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/s52"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/style_border"
+                android:text="3C"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/s53"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/style_border"
+                android:text="3D"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/s54"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/style_border"
+                android:text="3E"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/s55"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/style_border"
+                android:text="3F"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/s56"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/style_border2"
+                android:text="3G"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/s57"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/style_border2"
+                android:text="3H"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/s58"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/style_border2"
+                android:text="3I"
+                android:textSize="20dp" />
+
+        </TableRow>
+        <!--Septima fila >-->
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbarSize="5dp">
+
+            <TextView
+                android:id="@+id/s60"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/style_border2"
+                android:text="2A"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/s61"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/style_border2"
+                android:text="2B"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/s62"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/style_border2"
+                android:text="2C"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/s63"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/style_border2"
+                android:text="2D"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/s64"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/style_border2"
+                android:text="2E"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/s65"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/style_border2"
+                android:text="2F"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/s66"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/style_border2"
+                android:text="2G"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/s67"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/style_border2"
+                android:text="2H"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/s68"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/style_border2"
+                android:text="2I"
+                android:textSize="20dp" />
+
+        </TableRow>
+        <!--octava fila >-->
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbarSize="5dp">
+
+            <TextView
+                android:id="@+id/s70"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/style_border2"
+                android:text="1A"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/s71"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/style_border2"
+                android:text="1B"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/s72"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/style_border2"
+                android:text="1C"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/s73"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/style_border2"
+                android:text="1D"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/s74"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/style_border2"
+                android:text="1E"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/s75"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/style_border2"
+                android:text="1F"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/s76"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/style_border2"
+                android:text="1G"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/s77"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/style_border2"
+                android:text="1H"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/s78"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/style_border2"
+                android:text="1I"
+                android:textSize="20dp" />
+
+        </TableRow>
+
+    </TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Cine JORDA</string>
+    <string name="Username">Username</string>
+    <string name="Password">Password</string>
+    <string name="ButtonLogin">Login In</string>
+    <string name="ButtonRegister">Sign Up</string>
+    <string name="NombreSignUp">User Name</string>
+    <string name="NuevoPassword">Password</string>
+    <string name="ConfirmarPassword">Password Again</string>
+    <string name="ButtonSignUp">SIGN UP</string>
+    <string name="Buttonrapido">Rapidos y Furiosos X</string>
+    <string name="Buttonflash">Flash</string>
+    <string name="Buttonsirenita">La Sirenita</string>
+    <string name="Asiento">Selecione el asiento de su preferencia</string>
+    <string name="Buttonseleccionar">SELECIONAR</string>
+
+    <string name="seleción">Seleciones una pelicula y conozca sus detalles</string>
+    <string name="cartelera">Escoje tu pelicula favorita</string>
+
+    <string name="des_vacio">
+        Detalle Pelicula:
+    </string>
+
+    <string name="Rapidosyfuriososx">Rapidos y Furiosos X</string>
+
+    <!-- <string name="des_rapidosyfuriososx" >-->
+    <!--TITULO: Rapidos y Furiosos X >-->
+    <!--AÑO DE PUBLICACIÓN: 2023 >-->
+    <!--ACTORES: VIN DIESEL, MICHELLE, JASON, ALAN>-->
+    <!--GENERO: Acción/Aventura >-->
+    <!--DURACIÓN: 2h 21m >-->
+    <!--</string>>-->
+
+    <string name="Flash">Flash</string>
+    <!-- <string name="des_flash" >-->
+    <!--TITULO: FLASH >-->
+    <!--AÑO DE PUBLICACIÓN: 2023 >-->
+    <!--ACTORES: EZRA, MICHAEL, BEN, SASHA >-->
+    <!--GENERO: Acción/Aventura >-->
+    <!--DURACIÓN: 2h 24m >-->
+    <!--</string>>-->
+
+
+    <string name="LaSirenita">La Sirenita</string>
+    <!-- <string name="des_lasirenita" >-->
+    <!--TITULO: LA SIRENITA >-->
+    <!--AÑO DE PUBLICACIÓN: 2023 >-->
+    <!--ACTORES: HALLE, JONAH, MELISSA, JAVIER >-->
+    <!--GENERO: Fantasía/Musical >-->
+    <!--DURACIÓN: 2h 15m >-->
+    <!--</string>>-->
+
+</resources>
