@@ -11,11 +11,13 @@
     <string name="Buttonrapido">Rapidos y Furiosos X</string>
     <string name="Buttonflash">Flash</string>
     <string name="Buttonsirenita">La Sirenita</string>
-    <string name="Asiento">Selecione el asiento de su preferencia</string>
+    <string name="Asiento">Porfavor Selecione el Asiento de su Preferencia</string>
     <string name="Buttonseleccionar">SELECIONAR</string>
 
     <string name="seleción">Seleciones una pelicula y conozca sus detalles</string>
     <string name="cartelera">Escoje tu pelicula favorita</string>
+    <string name="Buttonsconfirmar">Confirmar</string>
+    <string name="mensajefinal">Felicitaciones</string>
 
     <string name="des_vacio">
         Detalle Pelicula:

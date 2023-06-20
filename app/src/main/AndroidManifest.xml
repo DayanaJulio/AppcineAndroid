@@ -12,6 +12,9 @@
         android:theme="@style/Theme.Cine"
         tools:targetApi="31">
         <activity
+            android:name=".MainActivityConfirmar"
+            android:exported="false" />
+        <activity
             android:name=".MainActivityAsientos"
             android:exported="false" />
         <activity
