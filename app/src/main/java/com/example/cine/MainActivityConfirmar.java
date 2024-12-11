@@ -12,6 +12,6 @@ public class MainActivityConfirmar extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_confirmar);
 
-        Toast.makeText(MainActivityConfirmar.this, "Su compra fue exitosa", Toast.LENGTH_LONG).show();
+        Toast.makeText(MainActivityConfirmar.this, "Su compra ha sido exitosa", Toast.LENGTH_LONG).show();
     }
 }
